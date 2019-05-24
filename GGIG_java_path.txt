@@ -1,0 +1,1 @@
+C:\Progra~1\AdoptOpenJDK\jdk-8.0.212.03-hotspot\bin\java

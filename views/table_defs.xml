@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<generated xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="charts/per-capita_consumption.xml"/>
+  <xi:include href="charts/year_line_graph.xml"/>
+  <xi:include href="maps/regions.xml"/>
+  <xi:include href="maps/years.xml"/>
+  <xi:include href="tables/baseline_comparison.xml"/>
+  <xi:include href="tables/dual_comparison.xml"/>
+  <xi:include href="tables/region_year.xml"/>
+</generated>

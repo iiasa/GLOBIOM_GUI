@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<generated>
+  <product>
+    <key>ALMILK</key>
+    <itemName>Milk - Excluding Butter + (Total)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BOVD</key>
+    <itemName>Bovines Dairy</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BOVF</key>
+    <itemName>Bovines Dairy Followers</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BOVO</key>
+    <itemName>Bovines Other</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BVMEAT</key>
+    <itemName>Bovine Meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Barl</key>
+    <itemName>Barley and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Cass</key>
+    <itemName>Cassava and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Corn</key>
+    <itemName>Maize and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Cott</key>
+    <itemName>Cottonseed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Gnut</key>
+    <itemName>Groundnuts (Shelled Eq)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Mill</key>
+    <itemName>Millet and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PGMEAT</key>
+    <itemName>Pigmeat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PIGS</key>
+    <itemName>Pigs All</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PTEGGS</key>
+    <itemName>Eggs + (Total)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PTMEAT</key>
+    <itemName>Poultry Meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PTRB</key>
+    <itemName>poultry broilers</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PTRH</key>
+    <itemName>poultry laying hens</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PTRX</key>
+    <itemName>poultry mixed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Pota</key>
+    <itemName>Potatoes and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Rape</key>
+    <itemName>Rape and Mustardseed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Rice</key>
+    <itemName>Rice (Milled Equivalent)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SGMEAT</key>
+    <itemName>Mutton &amp; Goat Meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SGTD</key>
+    <itemName>Shoat Dairy</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SGTF</key>
+    <itemName>Shoat Dairy Followers</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SGTO</key>
+    <itemName>Shoat Other</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Soya</key>
+    <itemName>Soyabeans</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Srgh</key>
+    <itemName>Sorghum and products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SugC</key>
+    <itemName>Sugar Cane</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Sunf</key>
+    <itemName>Sunflower seed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SwPo</key>
+    <itemName>Sweet Potatoes</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Whea</key>
+    <itemName>Wheat and products</itemName>
+    <sel>[all]</sel>
+  </product>
+</generated>

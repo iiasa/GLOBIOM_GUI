@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generated> <!-- manually-defined, actually, but we need to wrap the controls in something -->
+  <!-- Scenario workstep -->
+  <control>
+    <type>tab</type>
+    <title>Import from Calculator</title>
+    <tasks>Import scenarios definition from calculator</tasks>
+  </control>
+  <control>
+    <type>fileSel</type>
+    <title>Calculator Excel File</title>
+    <options>../Model/*.xlsx</options>
+    <gamsName>calculator_file</gamsName>
+    <tasks>Import scenarios definition from calculator</tasks>
+    <tooltip>First copy your calculator .xlsx file(s) to the Model folder, then you can select the calculator to use here.</tooltip>
+  </control>
+
+  <control>
+    <type>tab</type>
+    <title>Scenario Settings</title>
+    <tasks>Define and run scenario</tasks>
+  </control>
+  <control>
+    <type>singleList</type>
+    <title>Scenario 1</title>
+    <options>SSP1,SSP2,SSP3,SSP4,SSP5</options>
+    <gamsName>scenario_1</gamsName>
+    <tasks>Define and run scenario</tasks>
+  </control>
+  <control>
+    <type>singleList</type>
+    <title>Scenario 2</title>
+    <options>0_Ref,1_Yield,2_CTax</options>
+    <gamsName>scenario_2</gamsName>
+    <tasks>Define and run scenario</tasks>
+  </control>
+  <control>
+    <type>singleList</type>
+    <title>Scenario 3</title>
+    <options>scenBASE</options>
+    <gamsName>scenario_3</gamsName>
+    <tasks>Define and run scenario</tasks>
+  </control>
+  <control>
+  <type>multiList</type>
+  <title>Scenario years</title>
+  <value>2000,2010,2020,2030,2040</value>
+  <options>2000,2010,2020,2030,2040,2050,2060,2070,2080,2090,2100</options>
+    <gamsName>scenario_years</gamsName>
+    <tasks>Define and run scenario</tasks>
+  <range>11</range>
+  </control>
+
+  <control>
+    <type>tab</type>
+    <title>Output Settings</title>
+    <tasks>Output scenario results</tasks>
+  </control>
+  <control>
+    <type>Text</type>
+    <title>Scenario name</title>
+    <toolTip>Output name for scenario, should be a valid filname without extension.</toolTip>
+    <value>Baseline</value>
+    <style>width:160</style>
+    <gamsName>output_name</gamsName>
+    <tasks>Output scenario results</tasks>
+  </control>
+  <control>
+    <type>checkBox</type>
+    <title>Output CSV file</title>
+    <toolTip>Output .csv file in addition to .gdx (Windows only)</toolTip>
+    <value>false</value>
+    <gamsName>output_csv</gamsName>
+    <tasks>Output scenario results</tasks>
+  </control>
+</generated>

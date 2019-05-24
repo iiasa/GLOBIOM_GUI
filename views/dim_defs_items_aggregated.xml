@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<generated>
+  <product>
+    <key>AGR</key>
+    <itemName>All Agriculture</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>ALL</key>
+    <itemName>All sectors</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BF1G</key>
+    <itemName>First generation biofuels</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BF2G</key>
+    <itemName>Second generation biofuels</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BIOF</key>
+    <itemName>Biofuels</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BIOM_EL</key>
+    <itemName>Solid biomass used for energy production</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>BIOM_HH</key>
+    <itemName>Solid biomass used by households for cooking and heating</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>CER</key>
+    <itemName>All cereals</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>CGR</key>
+    <itemName>Other grains</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>CH4</key>
+    <itemName>Methane emissions</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>CO2</key>
+    <itemName>Carbon dioxide emissions</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>CRP</key>
+    <itemName>Crops</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Cropland</key>
+    <itemName>Cropland (without bioenergy plantations)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>DRY</key>
+    <itemName>Dairy products (milk eq.)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>ETOL</key>
+    <itemName>Ethanol</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>FAME</key>
+    <itemName>Biodiesel</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>FRSM</key>
+    <itemName>Forestry managed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>FRSU</key>
+    <itemName>Forestry unmanaged</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>FRV</key>
+    <itemName>Fruits and Vegetables</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Forest</key>
+    <itemName>Forest (managed and unmanaged)</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Grassland</key>
+    <itemName>Grassland for animal grazing</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>LSP</key>
+    <itemName>Livestock products</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>MEAL</key>
+    <itemName>Protein and pulp meals</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Meat</key>
+    <itemName>Meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>N2O</key>
+    <itemName>Nitrous oxide emissions</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>NRM</key>
+    <itemName>Non-ruminant meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OCR</key>
+    <itemName>Other crops</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OFF</key>
+    <itemName>Other food and feed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OSD</key>
+    <itemName>Oilseeds</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OthAgri</key>
+    <itemName>Other agricultural land</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OthLand</key>
+    <itemName>Other land</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>OthNatVeg</key>
+    <itemName>Other natural vegetation land</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>PRC</key>
+    <itemName>Processed</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>Plantation</key>
+    <itemName>Plantations for bioenergy</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>RIC</key>
+    <itemName>Rice</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>RUM</key>
+    <itemName>Ruminant meat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SGC</key>
+    <itemName>Sugar crops</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SRP</key>
+    <itemName>Short rotation plantations</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>SUG</key>
+    <itemName>Sugar</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>TOT</key>
+    <itemName>Other aggregates</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>VOF</key>
+    <itemName>Veget. oils and fats</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>WHT</key>
+    <itemName>Wheat</itemName>
+    <sel>[all]</sel>
+  </product>
+  <product>
+    <key>WOOD</key>
+    <itemName>Forestry product</itemName>
+    <sel>[all]</sel>
+  </product>
+</generated>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<generated>
+  <dim5>
+    <key>ANFD</key>
+    <itemName>Animal feed intake [1000 t dm]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>Anim</key>
+    <itemName>Animal number [1000 TLU]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>ARIR</key>
+    <itemName>Area cultivated - irrigated [1000 ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>ARRF</key>
+    <itemName>Area cultivated - rainfed [1000 ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>Area</key>
+    <itemName>Area cultivated [1000 ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>HARV</key>
+    <itemName>Area harvested [1000 ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>BIOU</key>
+    <itemName>Biofuel use [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>ECH4</key>
+    <itemName>CH4 emissions [MtCO2eq]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>ECO2</key>
+    <itemName>CO2 emissions [MtCO2eq]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>CTAX</key>
+    <itemName>Carbon tax [USD/tCO2]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YIIR</key>
+    <itemName>Crop yield - irrigated [t/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YIRF</key>
+    <itemName>Crop yield - rainfed [t/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YILD</key>
+    <itemName>Crop yield [t/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YILM</key>
+    <itemName>Crop yield, with multicropping [t/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>CONS</key>
+    <itemName>Domestic use [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>EMIS</key>
+    <itemName>Emissions from agriculture [MtCO2eq]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YEXO</key>
+    <itemName>Exogenous crop yield [t/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>YECC</key>
+    <itemName>Exogenous crop yield without CC [t/ha, %]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FEXO</key>
+    <itemName>Exogenous feed productivity trend [kg prot/t dm feed]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>LYXO</key>
+    <itemName>Exogenous land productivity trend [kg prot/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>EXPO</key>
+    <itemName>Exports [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FEEF</key>
+    <itemName>Feed productivity (endogenous) [kg prot/t dm feed]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FEED</key>
+    <itemName>Feed use [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FRTN</key>
+    <itemName>Fertiliser N [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FRTP</key>
+    <itemName>Fertiliser P [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FOOD</key>
+    <itemName>Food use [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>BFBL</key>
+    <itemName>Implied biofuel blending rate (energy %)</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>IMPO</key>
+    <itemName>Imports [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>LAND</key>
+    <itemName>Land cover [Mha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>LYLD</key>
+    <itemName>Land productivity (endogenous) [kg prot/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>LRNT</key>
+    <itemName>Land rent [USD/ha]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>QBFL</key>
+    <itemName>Mandated bioenergy [PJ, %]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>EN2O</key>
+    <itemName>N2O emissions [MtCO2eq]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>NETT</key>
+    <itemName>Net trade [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>NTMS</key>
+    <itemName>Net trade share in market volume [%]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>ENCO</key>
+    <itemName>Non CO2 emissions [MtCO2eq]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>OTHU</key>
+    <itemName>Other use [1000 t]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>PROD</key>
+    <itemName>Production [1000 t, PJ]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>XCPI</key>
+    <itemName>Real consumer price index [USD/t or USD/GJ or USD/1000 kcal] (aggregated as Laspeyres)</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>XPRP</key>
+    <itemName>Real producer price [USD/t or USD/GJ]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>XPRX</key>
+    <itemName>Real producer price export? [USD/t or USD/GJ]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>XPRI</key>
+    <itemName>Real producer price index [USD/t or USD/GJ]   (aggregated as Laspeyres)</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>BFSH</key>
+    <itemName>Share used for biofuel production [%]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>GDPT</key>
+    <itemName>Total GDP [Bln USD 2005]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>FUEL</key>
+    <itemName>Total fuel consumption [PJ]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>POPT</key>
+    <itemName>Total population [Mln pers]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>WATR</key>
+    <itemName>Water for irrigation [km3]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>CALO</key>
+    <itemName>p.c. calory availability [kcal/cap/d]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+  <dim5>
+    <key>CALT</key>
+    <itemName>p.c. calory diet target [kcal/cap/d]</itemName>
+    <sel>[all]</sel>
+  </dim5>
+</generated>

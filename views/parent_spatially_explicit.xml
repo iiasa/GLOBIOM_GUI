@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tables xmlns:xi="http://www.w3.org/2001/XInclude">
+  <table>
+    <name>aggregation_parent</name>
+    <coo>coo/ColRow.zip</coo>
+  </table>
+  <xi:include href="views/parent.xml"/>
+  <xi:include href="views/themes.xml"/>
+  <xi:include href="views/table_defs.xml"/>
+  <xi:include href="views/dim_defs_indicators.xml"/>
+  <xi:include href="views/dim_defs_items.xml"/>
+</tables>

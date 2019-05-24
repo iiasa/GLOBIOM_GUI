@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<generated>
+  <worldRegionFilter>
+    <attr>Type=multilist;Title=World region selection;Value=all;Options=EasternAsia,
+            Europe,
+            FormerSovietUnion,
+            LatinAmericaCarib,
+            MidEastNorthAfr,
+            NorthAmerica,
+            Oceania,
+            SouthAsia,
+            SouthEastAsia,
+            SubSaharanAfr "SubSaharanAfrRest",
+            World;range=11;tasks=none</attr>
+  </worldRegionFilter>
+</generated>
