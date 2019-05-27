@@ -13,6 +13,8 @@ This should yield a ``GUI`` directory adjacent to the ``Model`` directory.
 
 The GUI requires Java 8 specifically, other Java versions are **not** supported. If you do not have a Java 8 runtime installed on your machine, you can [download OpenJDK 8 here](https://adoptopenjdk.net/). Choose the HotSpot version for best performance.
 
+Beware that [Java versioning](https://www.oracle.com/technetwork/java/javase/jdk8-naming-2157130.html) is confusing: a Java 8 installation uses "1.8.*something*" as a version string.
+
 After locating or installing Java 8 on your machine, edit ``GGIG_java_path.txt`` to point to the java executable/binary of the installation. It should be located in a ``bin`` subdirectory. Thereafter, the GUI can be started by running ``launch.bat``, a cross-platform launcher script. The GUI runs on Windows and MacOS. On Linux there is an issue that we expect to resolve soon.
 
 ## Further reading
