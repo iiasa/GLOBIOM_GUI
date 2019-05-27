@@ -19,7 +19,7 @@ After locating or installing Java 8 on your machine, edit ``GGIG_java_path.txt``
 
 ## Further reading
 
-The GUI has many features. For more information and guidance, please [visit this page](https://iiasa.github.io/GLOBIOM_FABLE/GUI/).
+The GUI has many features. For more information and guidance, please [visit this page](https://iiasa.github.io/GLOBIOM_FABLE/GUI.html).
 
 ## Acknowledgements
 
