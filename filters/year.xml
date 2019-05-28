@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <generated>
   <yearFilter>
-    <attr>Type=multilist;Title=Year selection;Value=2000,2010,2020,2030;Options=2000,2010,2020,2030,2040,2050,2060,2070,2080,2090,2100;range=11;tasks=none</attr>
+    <attr>Type=multilist;Title=Year selection;Value=2000,2010,2020,2030;Options=1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2020,2030,2040,2050,2060,2070,2080,2090,2100;range=16;tasks=none</attr>
   </yearFilter>
 </generated>
