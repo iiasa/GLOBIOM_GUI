@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <generated> <!-- manually-defined, actually, but we need to wrap the controls in something -->
+  <!-- Model workstep -->
+  <control>
+    <type>Text</type>
+    <title>Run name</title>
+    <toolTip>Label for run, shoud be valid as a differentiating part of a filename.</toolTip>
+    <value>myrun</value>
+    <style>width:160</style>
+    <gamsName>run</gamsName>
+    <tasks>Run steps 1-4</tasks>
+  </control>
+
   <!-- Scenario workstep -->
   <control>
     <type>tab</type>

@@ -54,25 +54,12 @@
 
   <workStep>
     <name>Model</name>
-    <tasks>Load data,Aggregate spatially-explicit data,Precompute,Calibrate trade,Define model,Precompute scenario</tasks>
+    <tasks>Run steps 1-4</tasks>
   </workStep>
   <task>
-    <name>Load data</name>
-  </task>
-  <task>
-    <name>Aggregate spatially-explicit data</name>
-  </task>
-  <task>
-    <name>Precompute</name>
-  </task>
-  <task>
-    <name>Calibrate trade</name>
-  </task>
-  <task>
-    <name>Define model</name>
-  </task>
-  <task>
-    <name>Precompute scenario</name>
+    <name>Run steps 1-4</name>
+    <gamsFile>GUI_executebatch.gms</gamsFile>
+    <incFile>temp/GUI_executebatch_settings.gms</incFile>
   </task>
 
   <workStep>
@@ -82,11 +69,14 @@
   <task>
     <name>Import scenarios definition from calculator</name>
     <gamsFile>import_calculator_scenarios_definitions.R</gamsFile>
-    <incFile>GUI_inc/calculator_file.R</incFile>
+    <incFile>temp/calculator_file.R</incFile>
     <type>R</type>
   </task>
   <task>
     <name>Run scenario</name>
+    <gamsFile>6_scenarios.gms</gamsFile>
+    <gamsOptions>//do=da</gamsOptions>
+    <incFile>temp/scenarios_GUI_settings.gms</incFile>
   </task>
   <task>
     <name>Output scenario results</name>
