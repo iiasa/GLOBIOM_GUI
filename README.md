@@ -26,8 +26,8 @@ Thereafter, the GUI can be started by running ``launch.bat``, a cross-platform l
 
 ## Further reading
 
-The GUI has many features. For more information and guidance, please [visit this page](https://iiasa.github.io/GLOBIOM_FABLE/GUI.html/).
+For next steps and information regarding the many features of the GUI, please visit the [GLOBIOM GUI page](https://iiasa.github.io/GLOBIOM_FABLE/GUI.html).
 
 ## Acknowledgements
 
-The GLOBIOM GUI is based on [GGIG](http://www.ilr.uni-bonn.de/em/rsrch/ggig/ggig_e.htm), the Gams Graphical User Interface Generator. We are grateful for the generous assistance of Wolfgang Britz and Torbjörn Jansson.
+The GLOBIOM GUI is based on [GGIG](http://www.ilr.uni-bonn.de/em/rsrch/ggig/ggig_e.htm), the Gams Graphical User Interface Generator. We are grateful for the generous guidance and assistance concerning GGIG provided by Wolfgang Britz and Torbjörn Jansson.
