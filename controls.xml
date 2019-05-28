@@ -18,37 +18,36 @@
   <control>
     <type>tab</type>
     <title>Scenario Settings</title>
-    <tasks>Define and run scenario</tasks>
+    <tasks>Run scenario</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 1</title>
     <options>SSP1,SSP2,SSP3,SSP4,SSP5</options>
     <gamsName>scenario_1</gamsName>
-    <tasks>Define and run scenario</tasks>
+    <tasks>Run scenario</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 2</title>
     <options>0_Ref,1_Yield,2_CTax</options>
     <gamsName>scenario_2</gamsName>
-    <tasks>Define and run scenario</tasks>
+    <tasks>Run scenario</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 3</title>
     <options>scenBASE</options>
     <gamsName>scenario_3</gamsName>
-    <tasks>Define and run scenario</tasks>
+    <tasks>Run scenario</tasks>
   </control>
   <control>
-  <type>multiList</type>
-  <title>Scenario years</title>
-  <value>2000,2010,2020,2030,2040</value>
-  <options>2000,2010,2020,2030,2040,2050,2060,2070,2080,2090,2100</options>
-    <gamsName>scenario_years</gamsName>
-    <tasks>Define and run scenario</tasks>
-  <range>11</range>
+  <type>singleList</type>
+    <title>Scenario end year</title>
+    <value>2050</value>
+    <options>2000,2010,2020,2030,2040,2050,2060,2070,2080,2090,2100</options>
+    <gamsName>scenario_end_year</gamsName>
+    <tasks>Run scenario</tasks>
   </control>
 
   <control>
@@ -59,7 +58,7 @@
   <control>
     <type>Text</type>
     <title>Scenario name</title>
-    <toolTip>Output name for scenario, should be a valid filname without extension.</toolTip>
+    <toolTip>Output name for scenario, should be a valid filename without extension.</toolTip>
     <value>Baseline</value>
     <style>width:160</style>
     <gamsName>output_name</gamsName>
