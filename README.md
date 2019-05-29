@@ -23,7 +23,7 @@ After locating or installing Java 8 on your machine, edit ``GGIG_java_path.txt``
 * Go to the ``GUI`` folder created on cloning the repository.
 * From there, load ``GGIG_java_path.txt`` into a text editor, enter the path that matches your Java installation, and save.
 
-Thereafter, the GUI can be started by running ``launch.bat``, a cross-platform launcher script. The GUI runs on Windows and MacOS. On Linux there is an issue that we expect to resolve soon.
+Thereafter, the  GUI can be started by running ``globiom.bat``, a cross-platform launcher script. The GUI runs on Windows and MacOS. On Linux there is an issue that we expect to resolve soon.
 
 ## Further reading
 
