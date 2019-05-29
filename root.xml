@@ -64,7 +64,7 @@
 
   <workStep>
     <name>Scenarios</name>
-    <tasks>Import scenarios definition from calculator,Run scenario,Output scenario results</tasks>
+    <tasks>Import scenarios definition from calculator,Run scenario,Output results</tasks>
   </workStep>
   <task>
     <name>Import scenarios definition from calculator</name>
@@ -74,12 +74,11 @@
   </task>
   <task>
     <name>Run scenario</name>
-    <gamsFile>6_scenarios.gms</gamsFile>
-    <gamsOptions>//do=da</gamsOptions>
-    <incFile>temp/scenarios_GUI_settings.gms</incFile>
+    <gamsFile>GUI_scenarios.gms</gamsFile>
+    <incFile>temp/GUI_scenarios_settings.gms</incFile>
   </task>
   <task>
-    <name>Output scenario results</name>
+    <name>Output results</name>
   </task>
 
   <workStep>
