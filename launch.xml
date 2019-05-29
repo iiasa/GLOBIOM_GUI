@@ -54,16 +54,16 @@
 
   <workStep>
     <name>Model</name>
-    <tasks>Run steps 1-4</tasks>
+    <tasks>Run GLOBIOM</tasks>
   </workStep>
   <task>
-    <name>Run steps 1-4</name>
+    <name>Run GLOBIOM</name>
     <gamsFile>GUI_executebatch.gms</gamsFile>
     <incFile>temp/GUI_executebatch_settings.gms</incFile>
   </task>
 
   <workStep>
-    <name>Scenario</name>
+    <name>Scenarios</name>
     <tasks>Import scenarios definition from calculator,Run scenario,Output scenario results</tasks>
   </workStep>
   <task>

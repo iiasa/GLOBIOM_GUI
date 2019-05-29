@@ -8,10 +8,52 @@
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
-    <tasks>Run steps 1-4</tasks>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>1. Load data</title>
+    <type>checkbox</type>
+    <gamsName>do_loaddata</gamsName>
+    <value>ON</value>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>2. Active sets</title>
+    <type>checkbox</type>
+    <gamsName>do_activesets</gamsName>
+    <value>ON</value>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>3. Pre-compute</title>
+    <type>checkbox</type>
+    <gamsName>do_precompute</gamsName>
+    <value>ON</value>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>3b. Calibtrade</title>
+    <type>checkbox</type>
+    <gamsName>do_calibtrade</gamsName>
+    <value>ON</value>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>4. Model</title>
+    <type>checkbox</type>
+    <gamsName>do_model</gamsName>
+    <value>ON</value>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
+    <title>5. Precompute scen</title>
+    <type>checkbox</type>
+    <gamsName>do_precompute_scen</gamsName>
+    <value>OFF</value>
+    <tasks>Run GLOBIOM</tasks>
   </control>
 
-  <!-- Scenario workstep -->
+  <!-- Scenarios workstep -->
   <control>
     <type>tab</type>
     <title>Import from Calculator</title>
