@@ -4,9 +4,9 @@
     <clone>aggregation_parent</clone>
     <name>parent</name>
     <productSel>FromDataCube</productSel>
-    <dim7Text>hide</dim7Text>
-    <dim8Text>hide</dim8Text>
-    <dim9Text>hide</dim9Text>
+    <dim7Text>Scenario1</dim7Text>
+    <dim8Text>Scenario2</dim8Text>
+    <dim9Text>Scenario3</dim9Text>
   </table>
   <table>
     <clone>parent</clone>
