@@ -68,8 +68,8 @@
   </workStep>
   <task>
     <name>Import scenarios definition from calculator</name>
-    <gamsFile>import_calculator_scenarios_definitions.R</gamsFile>
-    <incFile>temp/calculator_file.R</incFile>
+    <gamsFile>GUI_import_calculator_scenarios_definition.R</gamsFile>
+    <incFile>temp/GUI_import_calculator_scenarios_definition_settings.R</incFile>
     <type>R</type>
   </task>
   <task>
