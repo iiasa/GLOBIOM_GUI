@@ -3,10 +3,10 @@
   <!-- Model workstep -->
   <control>
     <type>Text</type>
-    <title>Run name</title>
-    <toolTip>Label for run, shoud be valid as a differentiating part of a filename.</toolTip>
+    <title>Run label</title>
+    <toolTip>Label for run. Should be valid as part of a filename. Used to keep the GDX and restart files of one run separate from another. Keep it short.</toolTip>
     <value>myrun</value>
-    <style>width:160</style>
+    <style>width:100</style>
     <gamsName>run</gamsName>
     <tasks>Run steps 1-4</tasks>
   </control>
