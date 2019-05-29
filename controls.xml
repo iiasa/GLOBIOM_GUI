@@ -94,13 +94,15 @@
     <type>singleList</type>
     <title>Scenario 1</title>
     <options>SSP1,SSP2,SSP3</options>
+    <value>SSP2</value>
     <gamsName>scenario_1</gamsName>
     <tasks>Run scenario</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 2</title>
-    <options>0_Ref,1_Yield,2_CTax</options>
+    <options>0_Ref,1_Calculator</options>
+    <value>0_Ref</value>
     <gamsName>scenario_2</gamsName>
     <tasks>Run scenario</tasks>
   </control>
