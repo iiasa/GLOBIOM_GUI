@@ -2,9 +2,16 @@
 <generated> <!-- manually-defined, actually, but we need to wrap the controls in something -->
   <!-- Model workstep -->
   <control>
+    <type>tab</type>
+    <title>GLOBIOM Step Settings</title>
+    <tasks>Run GLOBIOM</tasks>
+  </control>
+  <control>
     <type>Text</type>
     <title>Run label</title>
-    <toolTip>Label for run. Should be valid as part of a filename. Used to keep the GDX and restart files of one run separate from another. Keep it short.</toolTip>
+    <toolTip><![CDATA[Label for run. Should be valid as part of a filename.<BR>
+                      Used to keep the GDX and restart files of one run separate from another.<BR>
+                      Keep it short.]]></toolTip>
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
@@ -65,18 +72,28 @@
     <options>../Model/*.xlsx</options>
     <gamsName>calculator_file</gamsName>
     <tasks>Import scenarios definition from calculator</tasks>
-    <tooltip>First copy your calculator .xlsx file(s) to the Model folder, then you can select the calculator to use here.</tooltip>
+    <tooltip><![CDATA[First copy your calculator .xlsx file(s) to the Model folder,<BR>
+                      then you can select the calculator to use here.]]></tooltip>
   </control>
-
   <control>
     <type>tab</type>
     <title>Scenario Settings</title>
     <tasks>Run scenario</tasks>
   </control>
   <control>
+    <type>Text</type>
+    <title>Run label</title>
+    <toolTip><![CDATA[Label of run for which you want to run scenarios.<BR>
+                      Should match the label used to run prior GLOBIOM steps.]]></toolTip>
+    <value>myrun</value>
+    <style>width:100</style>
+    <gamsName>run</gamsName>
+    <tasks>Run scenario</tasks>
+  </control>
+  <control>
     <type>singleList</type>
     <title>Scenario 1</title>
-    <options>SSP1,SSP2,SSP3,SSP4,SSP5</options>
+    <options>SSP1,SSP2,SSP3</options>
     <gamsName>scenario_1</gamsName>
     <tasks>Run scenario</tasks>
   </control>
