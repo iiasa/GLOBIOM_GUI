@@ -43,6 +43,10 @@
     <value>https://iiasa.github.io/GLOBIOM_FABLE/GUI.html</value>
   </helpMenuItem>
   <helpMenuItem>
+    <name>GLOBIOM GUI GitHub Repository</name>
+    <value>https://github.com/iiasa/GLOBIOM_GUI</value>
+  </helpMenuItem>
+  <helpMenuItem>
     <name>GLOBIOM FABLE Documentation Site</name>
     <value>https://iiasa.github.io/GLOBIOM_FABLE</value>
   </helpMenuItem>
