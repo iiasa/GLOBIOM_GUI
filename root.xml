@@ -39,8 +39,12 @@
   </generateRefAndExpFile>
 
   <helpMenuItem>
-    <name>GAMS Documentation Center</name>
-    <value>https://www.gams.com/latest/docs</value>
+    <name>GLOBIOM GUI Overview</name>
+    <value>https://iiasa.github.io/GLOBIOM_FABLE/GUI.html</value>
+  </helpMenuItem>
+  <helpMenuItem>
+    <name>GLOBIOM FABLE Documentation Site</name>
+    <value>https://iiasa.github.io/GLOBIOM_FABLE</value>
   </helpMenuItem>
   <helpMenuItem>
     <name>GGIG User Guide</name>
@@ -48,8 +52,8 @@
     <type>pdf</type>
   </helpMenuItem>
   <helpMenuItem>
-    <name>GLOBIOM FABLE Documentation Site</name>
-    <value>https://iiasa.github.io/GLOBIOM_FABLE</value>
+    <name>GAMS Documentation Center</name>
+    <value>https://www.gams.com/latest/docs</value>
   </helpMenuItem>
 
   <workStep>
