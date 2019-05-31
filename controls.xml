@@ -3,8 +3,8 @@
   <!-- Model workstep -->
   <control>
     <type>tab</type>
-    <title>GLOBIOM Step Settings</title>
-    <tasks>Run GLOBIOM</tasks>
+    <title>Run Settings</title>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <type>Text</type>
@@ -15,42 +15,42 @@
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <title>1. Load data</title>
     <type>checkbox</type>
     <gamsName>do_loaddata</gamsName>
     <value>ON</value>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <title>2. Active sets</title>
     <type>checkbox</type>
     <gamsName>do_activesets</gamsName>
     <value>ON</value>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <title>3. Pre-compute</title>
     <type>checkbox</type>
     <gamsName>do_precompute</gamsName>
     <value>ON</value>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <title>3b. Calibtrade</title>
     <type>checkbox</type>
     <gamsName>do_calibtrade</gamsName>
     <value>ON</value>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
   <control>
     <title>4. Model</title>
     <type>checkbox</type>
     <gamsName>do_model</gamsName>
     <value>ON</value>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </control>
 
   <!-- Scenarios workstep -->
@@ -71,7 +71,7 @@
   <control>
     <type>tab</type>
     <title>Scenario Settings</title>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
   </control>
   <control>
     <type>Text</type>
@@ -153,24 +153,7 @@
 
   <control>
     <type>tab</type>
-    <title>Output Settings</title>
-    <tasks>Output scenario results</tasks>
-  </control>
-  <control>
-    <type>Text</type>
-    <title>Scenario name</title>
-    <toolTip>Output name for scenario, should be a valid filename without extension.</toolTip>
-    <value>Baseline</value>
-    <style>width:160</style>
-    <gamsName>output_name</gamsName>
-    <tasks>Output scenario results</tasks>
-  </control>
-  <control>
-    <type>checkBox</type>
-    <title>Output CSV file</title>
-    <toolTip>Output .csv file in addition to .gdx (Windows only)</toolTip>
-    <value>false</value>
-    <gamsName>output_csv</gamsName>
-    <tasks>Output scenario results</tasks>
+    <title>Select aggregation in the tasks list on the left, then click "Exploit results"</title>
+    <tasks>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated,Spatially Explicit</tasks>
   </control>
 </generated>

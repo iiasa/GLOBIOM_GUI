@@ -54,10 +54,10 @@
 
   <workStep>
     <name>Model</name>
-    <tasks>Run GLOBIOM</tasks>
+    <tasks>Prepare and run model</tasks>
   </workStep>
   <task>
-    <name>Run GLOBIOM</name>
+    <name>Prepare and run model</name>
     <gamsFile>GUI_executebatch.gms</gamsFile>
     <incFile>temp/GUI_executebatch_settings.gms</incFile>
   </task>
