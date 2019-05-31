@@ -84,7 +84,7 @@
     <tasks>Run scenario and output results</tasks>
   </control>
   <control>
-    <title>5. Precompute scenarop</title>
+    <title>5. Precompute scenario</title>
     <type>checkbox</type>
     <gamsName>do_precompute_scen</gamsName>
     <value>OFF</value>
