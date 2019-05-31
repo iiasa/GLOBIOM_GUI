@@ -61,6 +61,16 @@
   </helpMenuItem>
 
   <workStep>
+    <name>Data</name>
+    <tasks>Pre-compile data</tasks>
+  </workStep>
+  <task>
+    <name>Pre-compile data</name>
+    <gamsFile>GUI_executebatch_total.gms</gamsFile>
+    <incFile>temp/GUI_executebatch_total_settings.gms</incFile>
+  </task>
+
+  <workStep>
     <name>Model</name>
     <tasks>Prepare and run model</tasks>
   </workStep>
