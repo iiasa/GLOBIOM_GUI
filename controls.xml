@@ -58,6 +58,9 @@
     <gamsName>do_precompute_scen</gamsName>
     <value>OFF</value>
     <tasks>Run GLOBIOM</tasks>
+    <tooltip><![CDATA[Perform precomputations before for the scenario run.<BR>
+                      This step is optional: use when you have added custom code<BR>
+                      to 5_precompuite_scen.gms file]]></tooltip>
   </control>
 
   <!-- Scenarios workstep -->
@@ -83,12 +86,12 @@
   <control>
     <type>Text</type>
     <title>Run label</title>
-    <toolTip><![CDATA[Label of run for which you want to run scenarios.<BR>
-                      Should match the label used to run prior GLOBIOM steps.]]></toolTip>
+    <toolTip><![CDATA[Label of model run for which you want to run scenarios.<BR>
+                      Should match the run label used to run prior GLOBIOM steps.<BR>]]></toolTip>
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
   </control>
   <control>
     <type>singleList</type>
@@ -96,7 +99,7 @@
     <options>SSP1,SSP2,SSP3</options>
     <value>SSP2</value>
     <gamsName>scenario_1</gamsName>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
   </control>
   <control>
     <type>singleList</type>
@@ -104,14 +107,14 @@
     <options>0_Ref,1_Calculator</options>
     <value>0_Ref</value>
     <gamsName>scenario_2</gamsName>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 3</title>
     <options>scenBASE</options>
     <gamsName>scenario_3</gamsName>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
   </control>
   <control>
   <type>singleList</type>
@@ -119,7 +122,33 @@
     <value>2050</value>
     <options>2010,2020,2030,2040,2050,2060,2070,2080,2090,2100</options>
     <gamsName>scenario_end_year</gamsName>
-    <tasks>Run scenario</tasks>
+    <tasks>Run scenario and output results</tasks>
+  </control>
+  <control>
+    <title>6. Scenarios</title>
+    <type>checkbox</type>
+    <gamsName>do_scenario</gamsName>
+    <value>ON</value>
+    <tasks>Run scenario and output results</tasks>
+  </control>
+  <control>
+    <type>Text</type>
+    <title>Output name</title>
+    <toolTip><![CDATA[Name of the GDX output file to generate, without .gdx extension.<BR>
+                      Choose a unique name referring to e.g. scenario, date, run,<BR>
+                      or sequence number.</BR>
+                      Should be valid as part of a filename.]]></toolTip>
+    <value>baseline</value>
+    <style>width:100</style>
+    <gamsName>output_name</gamsName>
+    <tasks>Run scenario and output results</tasks>
+  </control>
+  <control>
+    <title>7. Output</title>
+    <type>checkbox</type>
+    <gamsName>do_output</gamsName>
+    <value>ON</value>
+    <tasks>Run scenario and output results</tasks>
   </control>
 
   <control>
