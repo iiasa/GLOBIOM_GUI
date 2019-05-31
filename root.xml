@@ -74,7 +74,7 @@
   </task>
   <task>
     <name>Run scenario and output results</name>
-    <gamsFile>GUI_scenarios.gms</gamsFile>
+    <gamsFile>GUI_scenarios_and_output.gms</gamsFile>
     <incFile>temp/GUI_scenarios_settings.gms</incFile>
   </task>
 

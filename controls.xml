@@ -127,7 +127,7 @@
   <control>
     <title>6. Scenarios</title>
     <type>checkbox</type>
-    <gamsName>do_scenario</gamsName>
+    <gamsName>do_scenarios</gamsName>
     <value>ON</value>
     <tasks>Run scenario and output results</tasks>
   </control>
