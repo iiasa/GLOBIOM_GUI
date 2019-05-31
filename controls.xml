@@ -52,16 +52,6 @@
     <value>ON</value>
     <tasks>Run GLOBIOM</tasks>
   </control>
-  <control>
-    <title>5. Precompute scen</title>
-    <type>checkbox</type>
-    <gamsName>do_precompute_scen</gamsName>
-    <value>OFF</value>
-    <tasks>Run GLOBIOM</tasks>
-    <tooltip><![CDATA[Perform precomputations before for the scenario run.<BR>
-                      This step is optional: use when you have added custom code<BR>
-                      to 5_precompuite_scen.gms file]]></tooltip>
-  </control>
 
   <!-- Scenarios workstep -->
   <control>
@@ -92,6 +82,16 @@
     <style>width:100</style>
     <gamsName>run</gamsName>
     <tasks>Run scenario and output results</tasks>
+  </control>
+  <control>
+    <title>5. Precompute scenarop</title>
+    <type>checkbox</type>
+    <gamsName>do_precompute_scen</gamsName>
+    <value>OFF</value>
+    <tasks>Run scenario and output results</tasks>
+    <tooltip><![CDATA[Perform precomputations before the scenario run.<BR>
+                      This step is optional: use when you have added custom code<BR>
+                      to 5_precompuite_scen.gms file]]></tooltip>
   </control>
   <control>
     <type>singleList</type>
