@@ -3,7 +3,7 @@
   <xi:include href="controls.xml"/>
   <xi:include href="filters/indicator.xml"/>
   <xi:include href="filters/region37.xml"/>
-  <xi:include href="filters/year.xml"/>
+  <!-- <xi:include href="filters/year.xml"/> -->
   <xi:include href="filters/world_region.xml"/>
   <icon>
     <attr>GLOBIOM.png</attr>
@@ -101,7 +101,7 @@
     <xmlTableDef>views/parent_no_aggregation.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
     <filter>region,region37Filter,Starts_with</filter>
-    <filter>year,yearFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
     <name>Items aggregated</name>
@@ -118,7 +118,7 @@
     <xmlTableDef>views/parent_items_aggregated.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
     <filter>region,region37Filter,Starts_with</filter>
-    <filter>year,yearFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
     <name>Regions aggregated</name>
@@ -135,7 +135,7 @@
     <xmlTableDef>views/parent_regions_aggregated.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
     <filter>region,worldRegionFilter,Starts_with</filter>
-    <filter>year,yearFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
     <name>Items and regions aggregated</name>
@@ -152,7 +152,7 @@
     <xmlTableDef>views/parent_items_and_regions_aggregated.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
     <filter>region,worldRegionFilter,Starts_with</filter>
-    <filter>year,yearFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
     <name>Spatially Explicit</name>
@@ -169,6 +169,6 @@
     <scenDim>9,OutputGDX</scenDim>
     <xmlTableDef>views/parent_spatially_explicit.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
-    <filter>year,yearFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
 </GGIG>
