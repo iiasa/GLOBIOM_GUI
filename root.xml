@@ -62,28 +62,19 @@
 
   <workStep>
     <name>Data</name>
-    <tasks>Decompress big data files,Pre-compile data</tasks>
+    <tasks>Pre-compile data</tasks>
   </workStep>
-  <task>
-    <name>Decompress big data files</name>
-    <gamsFile>GUI_decompress_big_data.gms</gamsFile>
-    <incFile>temp/dummy.gms</incFile>
-  </task>
   <task>
     <name>Pre-compile data</name>
     <gamsFile>GUI_executebatch_total.gms</gamsFile>
+    <gamsOptions>PutDir=%modelDir%/temp</gamsOptions>
     <incFile>temp/GUI_executebatch_total_settings.gms</incFile>
   </task>
 
   <workStep>
     <name>Model</name>
-    <tasks>Decompress big finaldata files,Prepare and run model</tasks>
+    <tasks>Prepare and run model</tasks>
   </workStep>
-  <task>
-    <name>Decompress big finaldata files</name>
-    <gamsFile>GUI_decompress_big_finaldata.gms</gamsFile>
-    <incFile>temp/dummy.gms</incFile>
-  </task>
   <task>
     <name>Prepare and run model</name>
     <gamsFile>GUI_executebatch.gms</gamsFile>

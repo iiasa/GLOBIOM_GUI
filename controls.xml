@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <generated> <!-- manually-defined, actually, but we need to wrap the controls in something -->
+  <!-- Data workstep -->
+  <control>
+    <type>tab</type>
+    <title>Pre-compilation Settings</title>
+    <tasks>Pre-compile data</tasks>
+  </control>
+  <control>
+    <type>singleList</type>
+    <title>Region to single out</title>
+    <value>ArgentinaReg</value>
+    <options>ArgentinaReg,BrazilReg,CanadaReg,ChinaReg,CongoBasin,EU_Baltic,EU_CentralEast,EU_MidWest,AustraliaReg,IndonesiaReg,MalaysiaReg,MiddleEast,NewZealandReg,NorthernAf,RussiaReg,UkraineReg,EU_North,EU_South,Former_USSR,IndiaReg,JapanReg,MexicoReg,Pacific_Islands,RCAM,RCEU,ROWE,RSAM,RSAS,RSEA_OPA,RSEA_PAC,SouthAfrReg,SouthKorea,EasternAf,SouthernAf,WesternAf,TurkeyReg,USAReg</options>
+    <gamsName>singled_out_region</gamsName>
+    <tasks>Pre-compile data</tasks>
+  </control>
+  <control>
+    <title>Use col-row resolution</title>
+    <type>checkbox</type>
+    <gamsName>col_row</gamsName>
+    <value>ON</value>
+    <tasks>Pre-compile data</tasks>
+    <toolTip>Check to use col-row resolution (0.5 by 0.5 degree) for singled-out region</toolTip>
+  </control>
+
   <!-- Model workstep -->
   <control>
     <type>tab</type>
