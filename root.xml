@@ -186,4 +186,78 @@
     <filter>dim5,indicatorFilter,Starts_with</filter>
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
+  <workStep>
+    <name>Exploit results GGIG</name>
+    <tasks>No aggregation GGIG,Items aggregated GGIG,Regions aggregated GGIG,Items and regions aggregated GGIG,Spatially Explicit GGIG</tasks>
+  </workStep>
+  <task>
+    <name>No aggregation GGIG</name>
+    <gdxSymbol>OUTPUT_GGIG</gdxSymbol>
+    <regionDim>2,Region</regionDim>
+    <dim5Dim>0,Indicator</dim5Dim>
+    <productDim>3,Item</productDim>
+    <dim6Dim>1,Unit</dim6Dim>
+    <yearDim>4,Year</yearDim>
+    <scenDim>5,OutputGDX</scenDim>
+    <xmlTableDef>views/parent_no_aggregation.xml</xmlTableDef>
+    <filter>dim5,indicatorFilter,Starts_with</filter>
+    <filter>region,region37Filter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
+  </task>
+  <task>
+    <name>Items aggregated GGIG</name>
+    <gdxSymbol>OUTPUT_AG_ITEM_GGIG</gdxSymbol>
+    <regionDim>2,Region</regionDim>
+    <dim5Dim>0,Indicator</dim5Dim>
+    <productDim>3,Item Aggregate</productDim>
+    <dim6Dim>1,Unit</dim6Dim>
+    <yearDim>4,Year</yearDim>
+    <scenDim>5,OutputGDX</scenDim>
+    <xmlTableDef>views/parent_items_aggregated.xml</xmlTableDef>
+    <filter>dim5,indicatorFilter,Starts_with</filter>
+    <filter>region,region37Filter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
+  </task>
+  <task>
+    <name>Regions aggregated GGIG</name>
+    <gdxSymbol>OUTPUT_AG_REG_GGIG</gdxSymbol>
+    <regionDim>2,Macro Region</regionDim>
+    <dim5Dim>0,Indicator</dim5Dim>
+    <dim6Dim>1,Unit</dim6Dim>
+    <productDim>3,Item</productDim>
+    <yearDim>4,Year</yearDim>
+    <scenDim>5,OutputGDX</scenDim>
+    <xmlTableDef>views/parent_regions_aggregated.xml</xmlTableDef>
+    <filter>dim5,indicatorFilter,Starts_with</filter>
+    <filter>region,worldRegionFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
+  </task>
+  <task>
+    <name>Items and regions aggregated GGIG</name>
+    <gdxSymbol>OUTPUT_AG_GGIG</gdxSymbol>
+    <regionDim>2,Macro Region</regionDim>
+    <dim5Dim>0,Indicator</dim5Dim>
+    <productDim>3,Item Aggregate</productDim>
+    <dim6Dim>1,Unit</dim6Dim>
+    <yearDim>4,Year</yearDim>
+    <scenDim>5,OutputGDX</scenDim>
+    <xmlTableDef>views/parent_items_and_regions_aggregated.xml</xmlTableDef>
+    <filter>dim5,indicatorFilter,Starts_with</filter>
+    <filter>region,worldRegionFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
+  </task>
+  <task>
+    <name>Spatially Explicit GGIG</name>
+    <gdxSymbol>OUTPUT_CR30_GGIG</gdxSymbol>
+    <regionDim>2,Country</regionDim>
+    <activityDim>3,ColRow</activityDim>
+    <dim5Dim>0,Indicator</dim5Dim>
+    <productDim>4,Item</productDim>
+    <dim6Dim>1,Unit</dim6Dim>
+    <yearDim>5,Year</yearDim>
+    <scenDim>6,OutputGDX</scenDim>
+    <xmlTableDef>views/parent_spatially_explicit.xml</xmlTableDef>
+    <filter>dim5,indicatorFilter,Starts_with</filter>
+    <!-- <filter>year,yearFilter,Starts_with</filter> -->
+  </task>
 </GGIG>

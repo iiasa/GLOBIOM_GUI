@@ -177,6 +177,6 @@
   <control>
     <type>tab</type>
     <title>Select aggregation in the tasks list on the left, then click "Exploit results"</title>
-    <tasks>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated,Spatially Explicit</tasks>
+    <tasks>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated,Spatially Explicit,No aggregation GGIG,Items aggregated GGIG,Regions aggregated GGIG,Items and regions aggregated GGIG,Spatially Explicit GGIG</tasks>
   </control>
 </generated>
