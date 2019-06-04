@@ -171,16 +171,16 @@
   </task>
   <task>
     <name>Spatially Explicit</name>
-    <gdxSymbol>OUTPUT_CR30</gdxSymbol>
+    <gdxSymbol>OUTPUT_CR30_LONG</gdxSymbol>
     <regionDim>2,Country</regionDim>
-    <activityDim>3,ColRow</activityDim>
+    <activityDim>8,ColRow</activityDim>
     <dim5Dim>0,Indicator</dim5Dim>
-    <productDim>4,Item</productDim>
+    <productDim>3,Item</productDim>
     <dim6Dim>1,Unit</dim6Dim>
-    <dim7Dim>5,Scenario1</dim7Dim>
-    <dim8Dim>6,Scenario2</dim8Dim>
-    <dim9Dim>7,Scenario3</dim9Dim>
-    <yearDim>8,Year</yearDim>
+    <dim7Dim>4,Scenario1</dim7Dim>
+    <dim8Dim>5,Scenario2</dim8Dim>
+    <dim9Dim>6,Scenario3</dim9Dim>
+    <yearDim>7,Year</yearDim>
     <scenDim>9,OutputGDX</scenDim>
     <xmlTableDef>views/parent_spatially_explicit.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
@@ -250,11 +250,11 @@
     <name>Spatially Explicit GGIG</name>
     <gdxSymbol>OUTPUT_CR30_GGIG</gdxSymbol>
     <regionDim>2,Country</regionDim>
-    <activityDim>3,ColRow</activityDim>
+    <activityDim>5,ColRow</activityDim>
     <dim5Dim>0,Indicator</dim5Dim>
-    <productDim>4,Item</productDim>
+    <productDim>3,Item</productDim>
     <dim6Dim>1,Unit</dim6Dim>
-    <yearDim>5,Year</yearDim>
+    <yearDim>4,Year</yearDim>
     <scenDim>6,OutputGDX</scenDim>
     <xmlTableDef>views/parent_spatially_explicit.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
