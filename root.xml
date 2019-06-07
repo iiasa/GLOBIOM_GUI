@@ -18,6 +18,9 @@
     <attr>Tool Name</attr>
   </toolName>
   <allTasks><attr>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated</attr></allTasks>
+  <defaultExes>
+    <attr>GAMSexe,rExe</attr>
+  </defaultExes>
   <modelDir>
     <attr>../Model</attr>
   </modelDir>
