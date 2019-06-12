@@ -25,6 +25,10 @@ After locating or installing Java 8 on your machine, edit ``GGIG_java_path.txt``
 
 Thereafter, the  GUI can be started by running ``globiom.bat``, a cross-platform launcher script. The GUI runs on Windows and MacOS. On Linux there is an issue that we expect to resolve soon.
 
+## Overview and dependencies
+
+For an overview of the GUI and detailed installation instructions instructions for GLOBIOM dependencies, see the [A GUI for GLOBIOM](https://iiasa.github.io/GLOBIOM_FABLE/presentations/A_GUI_for_GLOBIOM.pdf) presentation.
+
 ## Further reading
 
 For next steps and information regarding the many features of the GUI, please visit the [GLOBIOM GUI page](https://iiasa.github.io/GLOBIOM_FABLE/GUI.html).
