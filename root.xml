@@ -17,7 +17,7 @@
   <toolName>
     <attr>Tool Name</attr>
   </toolName>
-  <allTasks><attr>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated</attr></allTasks>
+  <allTasks><attr>No_aggregation,Items_aggregated,Regions_aggregated,Items_and_regions_aggregated</attr></allTasks>
   <defaultExes>
     <attr>GAMSexe,rExe</attr>
   </defaultExes>
@@ -65,10 +65,10 @@
 
   <workStep>
     <name>Data</name>
-    <tasks>Pre-compile data</tasks>
+    <tasks>Pre-compile_data</tasks>
   </workStep>
   <task>
-    <name>Pre-compile data</name>
+    <name>Pre-compile_data</name>
     <gamsFile>GUI_executebatch_total.gms</gamsFile>
     <gamsOptions>PutDir=%modelDir%/temp</gamsOptions>
     <incFile>temp/GUI_executebatch_total_settings.gms</incFile>
@@ -76,36 +76,36 @@
 
   <workStep>
     <name>Model</name>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </workStep>
   <task>
-    <name>Prepare and run model</name>
+    <name>Prepare_and_run_model</name>
     <gamsFile>GUI_executebatch.gms</gamsFile>
     <incFile>temp/GUI_executebatch_settings.gms</incFile>
   </task>
 
   <workStep>
     <name>Scenarios</name>
-    <tasks>Import scenarios definition from calculator,Run scenario and output results</tasks>
+    <tasks>Import_scenarios_definition_from_calculator,Run_scenario_and_output_results</tasks>
   </workStep>
   <task>
-    <name>Import scenarios definition from calculator</name>
+    <name>Import_scenarios_definition_from_calculator</name>
     <gamsFile>GUI_import_calculator_scenarios_definition.R</gamsFile>
     <incFile>temp/GUI_import_calculator_scenarios_definition_settings.R</incFile>
     <type>R</type>
   </task>
   <task>
-    <name>Run scenario and output results</name>
+    <name>Run_scenario_and_output_results</name>
     <gamsFile>GUI_scenarios_and_output.gms</gamsFile>
     <incFile>temp/GUI_scenarios_settings.gms</incFile>
   </task>
 
   <workStep>
     <name>Exploit results</name>
-    <tasks>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated,Spatially Explicit</tasks>
+    <tasks>No_aggregation,Items_aggregated,Regions_aggregated,Items_and_regions_aggregated,Spatially_explicit</tasks>
   </workStep>
   <task>
-    <name>No aggregation</name>
+    <name>No_aggregation</name>
     <gdxSymbol>OUTPUT</gdxSymbol>
     <regionDim>2,Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -122,7 +122,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Items aggregated</name>
+    <name>Items_aggregated</name>
     <gdxSymbol>OUTPUT_AG_ITEM</gdxSymbol>
     <regionDim>2,Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -139,7 +139,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Regions aggregated</name>
+    <name>Regions_aggregated</name>
     <gdxSymbol>OUTPUT_AG_REG</gdxSymbol>
     <regionDim>2,Macro Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -156,7 +156,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Items and regions aggregated</name>
+    <name>Items_and_regions_aggregated</name>
     <gdxSymbol>OUTPUT_AG</gdxSymbol>
     <regionDim>2,Macro Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -191,10 +191,10 @@
   </task>
   <workStep>
     <name>Exploit results GGIG</name>
-    <tasks>No aggregation GGIG,Items aggregated GGIG,Regions aggregated GGIG,Items and regions aggregated GGIG,Spatially Explicit GGIG</tasks>
+    <tasks>No_aggregation_GGIG,Items_aggregated_GGIG,Regions_aggregated_GGIG,Items_and_regions_aggregated_GGIG,Spatially_explicit_GGIG</tasks>
   </workStep>
   <task>
-    <name>No aggregation GGIG</name>
+    <name>No_aggregation_GGIG</name>
     <gdxSymbol>OUTPUT_GGIG</gdxSymbol>
     <regionDim>2,Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -208,7 +208,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Items aggregated GGIG</name>
+    <name>Items_aggregated_GGIG</name>
     <gdxSymbol>OUTPUT_AG_ITEM_GGIG</gdxSymbol>
     <regionDim>2,Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -222,7 +222,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Regions aggregated GGIG</name>
+    <name>Regions_aggregated_GGIG</name>
     <gdxSymbol>OUTPUT_AG_REG_GGIG</gdxSymbol>
     <regionDim>2,Macro Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -236,7 +236,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Items and regions aggregated GGIG</name>
+    <name>Items_and_regions_aggregated_GGIG</name>
     <gdxSymbol>OUTPUT_AG_GGIG</gdxSymbol>
     <regionDim>2,Macro Region</regionDim>
     <dim5Dim>0,Indicator</dim5Dim>
@@ -250,7 +250,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Spatially Explicit GGIG</name>
+    <name>Spatially_explicit_GGIG</name>
     <gdxSymbol>OUTPUT_CR30_GGIG</gdxSymbol>
     <regionDim>2,Country</regionDim>
     <activityDim>5,ColRow</activityDim>

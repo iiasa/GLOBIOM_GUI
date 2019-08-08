@@ -4,7 +4,7 @@
   <control>
     <type>tab</type>
     <title>Pre-compilation Settings</title>
-    <tasks>Pre-compile data</tasks>
+    <tasks>Pre-compile_data</tasks>
   </control>
   <control>
     <type>singleList</type>
@@ -12,14 +12,14 @@
     <value>ArgentinaReg</value>
     <options>ArgentinaReg,BrazilReg,CanadaReg,ChinaReg,CongoBasin,EU_Baltic,EU_CentralEast,EU_MidWest,AustraliaReg,IndonesiaReg,MalaysiaReg,MiddleEast,NewZealandReg,NorthernAf,RussiaReg,UkraineReg,EU_North,EU_South,Former_USSR,IndiaReg,JapanReg,MexicoReg,Pacific_Islands,RCAM,RCEU,ROWE,RSAM,RSAS,RSEA_OPA,RSEA_PAC,SouthAfrReg,SouthKorea,EasternAf,SouthernAf,WesternAf,TurkeyReg,USAReg</options>
     <gamsName>singled_out_region</gamsName>
-    <tasks>Pre-compile data</tasks>
+    <tasks>Pre-compile_data</tasks>
   </control>
   <control>
     <title>Use col-row resolution</title>
     <type>checkbox</type>
     <gamsName>col_row</gamsName>
     <value>ON</value>
-    <tasks>Pre-compile data</tasks>
+    <tasks>Pre-compile_data</tasks>
     <toolTip>Check to use col-row resolution (0.5 by 0.5 degree) for singled-out region</toolTip>
   </control>
 
@@ -27,7 +27,7 @@
   <control>
     <type>tab</type>
     <title>Run Settings</title>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <type>Text</type>
@@ -38,63 +38,63 @@
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <title>1. Load data</title>
     <type>checkbox</type>
     <gamsName>do_loaddata</gamsName>
     <value>ON</value>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <title>2. Active sets</title>
     <type>checkbox</type>
     <gamsName>do_activesets</gamsName>
     <value>ON</value>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <title>3. Pre-compute</title>
     <type>checkbox</type>
     <gamsName>do_precompute</gamsName>
     <value>ON</value>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <title>3b. Calibtrade</title>
     <type>checkbox</type>
     <gamsName>do_calibtrade</gamsName>
     <value>ON</value>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
   <control>
     <title>4. Model</title>
     <type>checkbox</type>
     <gamsName>do_model</gamsName>
     <value>ON</value>
-    <tasks>Prepare and run model</tasks>
+    <tasks>Prepare_and_run_model</tasks>
   </control>
 
   <!-- Scenarios workstep -->
   <control>
     <type>tab</type>
     <title>Import from Calculator</title>
-    <tasks>Import scenarios definition from calculator</tasks>
+    <tasks>Import_scenarios_definition_from_calculator</tasks>
   </control>
   <control>
     <type>fileSel</type>
     <title>Calculator Excel File</title>
     <options>../Model/*.xlsx</options>
     <gamsName>calculator_file</gamsName>
-    <tasks>Import scenarios definition from calculator</tasks>
+    <tasks>Import_scenarios_definition_from_calculator</tasks>
     <tooltip><![CDATA[First copy your calculator .xlsx file(s) to the Model folder,<BR>
                       then you can select the calculator to use here.]]></tooltip>
   </control>
   <control>
     <type>tab</type>
     <title>Scenario Settings</title>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <type>Text</type>
@@ -104,14 +104,14 @@
     <value>myrun</value>
     <style>width:100</style>
     <gamsName>run</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <title>5. Precompute scenario</title>
     <type>checkbox</type>
     <gamsName>do_precompute_scen</gamsName>
     <value>OFF</value>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
     <tooltip><![CDATA[Perform precomputations before the scenario run.<BR>
                       This step is optional: use when you have added custom code<BR>
                       to 5_precompuite_scen.gms file]]></tooltip>
@@ -122,7 +122,7 @@
     <options>SSP1,SSP2,SSP3</options>
     <value>SSP2</value>
     <gamsName>scenario_1</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <type>singleList</type>
@@ -130,14 +130,14 @@
     <options>0_Ref,1_Calculator</options>
     <value>0_Ref</value>
     <gamsName>scenario_2</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <type>singleList</type>
     <title>Scenario 3</title>
     <options>scenBASE</options>
     <gamsName>scenario_3</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
   <type>singleList</type>
@@ -145,14 +145,14 @@
     <value>2050</value>
     <options>2010,2020,2030,2040,2050,2060</options>
     <gamsName>scenario_end_year</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <title>6. Scenarios</title>
     <type>checkbox</type>
     <gamsName>do_scenarios</gamsName>
     <value>ON</value>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <type>Text</type>
@@ -164,19 +164,19 @@
     <value>baseline</value>
     <style>width:100</style>
     <gamsName>output_name</gamsName>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
   <control>
     <title>7. Output</title>
     <type>checkbox</type>
     <gamsName>do_output</gamsName>
     <value>ON</value>
-    <tasks>Run scenario and output results</tasks>
+    <tasks>Run_scenario_and_output_results</tasks>
   </control>
 
   <control>
     <type>tab</type>
     <title>Select aggregation in the tasks list on the left, then click "Exploit results"</title>
-    <tasks>No aggregation,Items aggregated,Regions aggregated,Items and regions aggregated,Spatially Explicit,No aggregation GGIG,Items aggregated GGIG,Regions aggregated GGIG,Items and regions aggregated GGIG,Spatially Explicit GGIG</tasks>
+    <tasks>No_aggregation,Items_aggregated,Regions_aggregated,Items_and_regions_aggregated,Spatially_explicit,No_aggregation_GGIG,Items_aggregated_GGIG,Regions_aggregated_GGIG,Items_and_regions_aggregated_GGIG,Spatially_explicit_GGIG</tasks>
   </control>
 </generated>
