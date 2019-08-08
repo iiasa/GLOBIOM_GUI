@@ -173,7 +173,7 @@
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
-    <name>Spatially Explicit</name>
+    <name>Spatially_explicit</name>
     <gdxSymbol>OUTPUT_CR30_LONG</gdxSymbol>
     <regionDim>2,Country</regionDim>
     <activityDim>8,ColRow</activityDim>
