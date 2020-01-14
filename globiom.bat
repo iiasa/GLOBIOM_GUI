@@ -11,7 +11,14 @@ set /p GGIG_JAVA_OPTIONS=<GGIG_java_options.txt
 :: Put the GGIG jars on-path and launch the GUI
 set PATH=%PATH%;jars
 @echo on
-"%GGIG_JAVA_PATH%" %GGIG_JAVA_OPTIONS% -jar jars/gig.jar settings.ini root.xml
+:: Redirect stdout/stderr to a GUI.log file to prevent the GUI from becoming
+:: unresponsive when text output to the Command Prompt window is blocked.
+::
+:: This can happen by an accidental click initiating a text selection. To get
+:: rid of this behaviour, right-click on the Command Prompt title bar and
+:: select Defaults. In the dialog that appears, in the Options tab, deselect
+:: QuickEdit Mode and click OK.
+"%GGIG_JAVA_PATH%" %GGIG_JAVA_OPTIONS% -jar jars/gig.jar settings.ini root.xml 1>GUI.log 2>&1
 popd
 exit /b :: end batch script processing
 BATCH
