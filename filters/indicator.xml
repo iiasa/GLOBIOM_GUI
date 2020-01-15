@@ -14,7 +14,7 @@
             YIIR "Crop yield - irrigated",
             YIRF "Crop yield - rainfed",
             YILD "Crop yield",
-            YILM "Crop yield, with multicropping",
+            YILM "Crop yield - with multicropping",
             CONS "Domestic use",
             EMIS "Emissions from agriculture",
             YEXO "Exogenous crop yield",
