@@ -1,10 +1,10 @@
 ## GLOBIOM_GUI
 
-This repository provides a Graphical User Interface (GUI) for [GLOBIOM](http://www.globiom.org/). The master (default) branch is designed for the [FABLE version of GLOBIOM](https://iiasa.github.io/GLOBIOM_FABLE/).
+This repository provides a Graphical User Interface (GUI) for [GLOBIOM](http://www.globiom.org/). The master (default) branch is designed for the Trunk and [FABLE](https://iiasa.github.io/GLOBIOM_FABLE/) versions of GLOBIOM.
 
 ## Getting Started
 
-To make this repository work with [GLOBIOM_FABLE](https://github.com/iiasa/GLOBIOM_FABLE), clone it to a ``GUI`` directory co-located with the GLOBIOM ``Model`` directory. From the command line, this can be done as follows:
+To make this repository work with the Trunk or [GLOBIOM_FABLE](https://github.com/iiasa/GLOBIOM_FABLE), clone it to a ``GUI`` directory co-located with the GLOBIOM ``Model`` directory. From the command line, this can be done as follows:
 ```
 cd <directory where you cloned GLOBIOM_FABLE>
 git clone https://github.com/iiasa/GLOBIOM_GUI GUI
