@@ -2,7 +2,7 @@
 <GGIG xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="controls.xml"/>
   <xi:include href="filters/indicator.xml"/>
-  <xi:include href="filters/region37.xml"/>
+  <xi:include href="filters/region38.xml"/>
   <!-- <xi:include href="filters/year.xml"/> -->
   <xi:include href="filters/world_region.xml"/>
   <icon>
@@ -118,7 +118,7 @@
     <scenDim>8,OutputGDX</scenDim>
     <xmlTableDef>views/parent_no_aggregation.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
-    <filter>region,region37Filter,Starts_with</filter>
+    <filter>region,region38Filter,Starts_with</filter>
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
@@ -135,7 +135,7 @@
     <scenDim>8,OutputGDX</scenDim>
     <xmlTableDef>views/parent_items_aggregated.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
-    <filter>region,region37Filter,Starts_with</filter>
+    <filter>region,region38Filter,Starts_with</filter>
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
@@ -204,7 +204,7 @@
     <scenDim>5,OutputGDX</scenDim>
     <xmlTableDef>views/parent_no_aggregation.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
-    <filter>region,region37Filter,Starts_with</filter>
+    <filter>region,region38Filter,Starts_with</filter>
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>
@@ -218,7 +218,7 @@
     <scenDim>5,OutputGDX</scenDim>
     <xmlTableDef>views/parent_items_aggregated.xml</xmlTableDef>
     <filter>dim5,indicatorFilter,Starts_with</filter>
-    <filter>region,region37Filter,Starts_with</filter>
+    <filter>region,region38Filter,Starts_with</filter>
     <!-- <filter>year,yearFilter,Starts_with</filter> -->
   </task>
   <task>

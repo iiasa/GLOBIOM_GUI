@@ -9,8 +9,8 @@
   <control>
     <type>singleList</type>
     <title>Region to single out</title>
-    <value>ArgentinaReg</value>
-    <options>ArgentinaReg,BrazilReg,CanadaReg,ChinaReg,CongoBasin,EU_Baltic,EU_CentralEast,EU_MidWest,AustraliaReg,IndonesiaReg,MalaysiaReg,MiddleEast,NewZealandReg,NorthernAf,RussiaReg,UkraineReg,EU_North,EU_South,Former_USSR,IndiaReg,JapanReg,MexicoReg,Pacific_Islands,RCAM,RCEU,ROWE,RSAM,RSAS,RSEA_OPA,RSEA_PAC,SouthAfrReg,SouthKorea,EasternAf,SouthernAf,WesternAf,TurkeyReg,USAReg</options>
+    <value>ColombiaReg</value>
+    <options>ArgentinaReg,BrazilReg,CanadaReg,ChinaReg,ColombiaReg,CongoBasin,EU_Baltic,EU_CentralEast,EU_MidWest,AustraliaReg,IndonesiaReg,MalaysiaReg,MiddleEast,NewZealandReg,NorthernAf,RussiaReg,UkraineReg,EU_North,EU_South,Former_USSR,IndiaReg,JapanReg,MexicoReg,Pacific_Islands,RCAM,RCEU,ROWE,RSAM,RSAS,RSEA_OPA,RSEA_PAC,SouthAfrReg,SouthKorea,EasternAf,SouthernAf,WesternAf,TurkeyReg,USAReg</options>
     <gamsName>singled_out_region</gamsName>
     <tasks>Pre-compile_data</tasks>
   </control>
