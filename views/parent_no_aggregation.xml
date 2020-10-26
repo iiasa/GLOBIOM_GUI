@@ -2,7 +2,7 @@
 <tables xmlns:xi="http://www.w3.org/2001/XInclude">
   <table>
     <name>aggregation_parent</name>
-    <coo>coo/GLOBIOM_Regions_37.zip</coo>
+    <coo>coo/GLOBIOM_Regions_38_Colombia.zip</coo>
   </table>
   <xi:include href="views/parent.xml"/>
   <xi:include href="views/themes.xml"/>
